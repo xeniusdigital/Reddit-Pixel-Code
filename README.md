@@ -1,6 +1,8 @@
 # Reddit-Pixel-Code
 Pixel tracking code for Reddit 
 
+https://advertising.reddithelp.com/en/categories/measurement/install-reddit-pixel
+
 
 <!-- Reddit Pixel -->
 <script>
