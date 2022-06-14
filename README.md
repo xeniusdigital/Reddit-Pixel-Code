@@ -82,7 +82,29 @@ https://advertising.reddithelp.com/en/categories/measurement/install-reddit-pixe
 </script>
   
   
+ ===================================================
+Event Name        Description                                             Code
+PageVisit         User lands on your landing page (default event)         rdt('track', 'PageVisit');
+
+ViewContent       User lands on a specific webpage, like a product page   rdt('track', 'ViewContent');
+
+Search            User performs a search                                  rdt('track', 'Search');
   
+AddToCart         User adds a product to the shopping cart                rdt('track', 'AddToCart');
+
+AddToWishlist     User adds a product to a wishlist                       rdt('track', 'AddToWishlist');
+
+Purchase          User completes the purchase                             rdt('track', 'Purchase');
+
+Lead              User submits information expressing interest 
+                  in the advertised product/offer                         rdt('track', 'Lead');
+
+SignUp            User completes a registration or sign up form           rdt('track', 'SignUp');
+
+Custom (Beta)	Additional user actions outside of the predefined standard events	rdt('track', 'Custom', {customEventName:'YOUR CUSTOM EVENT HERE'});
+ 
+  
+  ==================================================
   
   
   
